@@ -3,7 +3,7 @@
 import os
 
 #slackbotのAPIトークンを入力
-API_TOKEN = os.getenv("SLACK_BOT_TOKEN")#"xoxb-198313998002-378884809812-4nATocYuiR6TObYZXWOx6Gqz"
+API_TOKEN = os.getenv("SLACK_BOT_TOKEN")
 
 # このbot宛のメッセージで、どの応答にも当てはまらない場合の応答文字列
 DEFAULT_REPLY = "こらドテン！しっかり稼ぐのじゃ！"
